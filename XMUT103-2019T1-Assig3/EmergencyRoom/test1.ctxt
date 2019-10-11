@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=test1
+comment1.params=
+comment1.target=test1()
+comment2.params=
+comment2.target=void\ test()
+comment3.params=c
+comment3.target=boolean\ isOpenBracket(char)
+comment4.params=c
+comment4.target=boolean\ isCloseBracket(char)
+comment5.params=opening\ closing
+comment5.target=boolean\ matches(char,\ char)
+comment6.params=input
+comment6.target=boolean\ checkBrackets(java.lang.CharSequence)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

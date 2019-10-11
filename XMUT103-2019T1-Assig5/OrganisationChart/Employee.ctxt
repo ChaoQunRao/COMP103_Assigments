@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Employee
+comment0.text=\r\n\ Represents\ an\ employee\ in\ an\ organisation\r\n\ Employees\ have\ initials\ and\ an\ ID\ number\r\n\ \ \ (and\ could\ have\ further\ information)\r\n\r\n\ An\ employee\ is\ drawn\ as\ an\ oval\ containing\ \r\n\ \ \ the\ initials\ of\ the\ employee.\r\n
+comment1.params=initials
+comment1.target=Employee(java.lang.String)
+comment1.text=\r\n\ Construct\ a\ new\ Employee\ object\ with\ the\ given\ initials\r\n\ Assume\ initials\ is\ a\ non\ null\ and\ non\ empty\ String\r\n
+comment2.params=initials\ id
+comment2.target=Employee(java.lang.String,\ int)
+comment2.text=\r\n\ Construct\ a\ new\ Employee\ object\ with\ the\ given\ initials\ and\ id\r\n
+comment3.params=
+comment3.target=java.lang.String\ getInitials()
+comment3.text=Returns\ the\ initials\ of\ this\ Employee
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Returns\ a\ string\ containing\ the\ initials\ of\ an\ employee.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toStringFull()
+comment5.text=\r\n\ Returns\ a\ string\ containing\ the\ details\ of\ an\ employee\r\n\ May\ be\ useful\ for\ saving\ to\ files\r\n
+numComments=6

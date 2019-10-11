@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=test
+comment1.params=graphics
+comment1.target=void\ paint(java.awt.Graphics)
+comment2.params=
+comment2.target=test()
+comment3.params=
+comment3.target=void\ setUpGUI()
+comment4.params=x\ y\ l\ w
+comment4.target=void\ drawLine(int,\ int,\ int,\ int)
+comment5.params=graphics
+comment5.target=void\ paint(java.awt.Graphics)
+comment6.params=name\ controller
+comment6.target=void\ addButton(java.lang.String,\ ecs100.UIButtonListener)
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

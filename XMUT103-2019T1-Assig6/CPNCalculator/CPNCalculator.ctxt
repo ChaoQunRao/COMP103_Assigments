@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=CPNCalculator
+comment0.text=\ \r\n\ Calculator\ for\ Cambridge-Polish\ Notation\ expressions\r\n\ User\ can\ type\ in\ an\ expression\ (in\ CPN)\ and\ the\ program\r\n\ will\ compute\ and\ print\ out\ the\ value\ of\ the\ expression.\r\n\ The\ template\ is\ based\ on\ the\ version\ in\ the\ lectures,\r\n\ \ which\ only\ handled\ +\ -\ *\ /,\ and\ did\ not\ do\ any\ checking\r\n\ \ for\ valid\ expressions\r\n\ The\ program\ should\ handle\ a\ wider\ range\ of\ operators\ and\r\n\ \ check\ and\ report\ certain\ kinds\ of\ invalid\ expressions\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Main\ Read-evaluate-print\ loop\r\n\ Reads\ an\ expression\ from\ the\ user\ then\ evaluates\ it\ and\ prints\ the\ result\r\n\ Invalid\ expressions\ could\ cause\ errors\ when\ reading.\r\n\ The\ try-catch\ prevents\ these\ errors\ from\ crashing\ the\ programe\ -\ \r\n\ \ the\ error\ is\ caught,\ and\ a\ message\ printed,\ then\ the\ loop\ continues.\r\n
+comment2.params=sc
+comment2.target=GTNode\ readExpr(java.util.Scanner)
+comment2.text=\r\n\ Recursively\ construct\ expression\ tree\ from\ scanner\ input\r\n
+comment3.params=expr\ lastOperator
+comment3.target=void\ printExpr(GTNode,\ java.lang.String)
+comment4.params=operator\ lastOperator
+comment4.target=boolean\ needBrack(java.lang.String,\ java.lang.String)
+comment5.params=expr
+comment5.target=double\ evaluate(GTNode)
+comment5.text=\r\n\ Evaluate\ an\ expression\ and\ return\ the\ value\r\n\ Returns\ Double.NaN\ if\ the\ expression\ is\ invalid\ in\ some\ way.\r\n
+numComments=6

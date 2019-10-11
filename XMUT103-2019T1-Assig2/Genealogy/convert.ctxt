@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=convert
+comment1.params=
+comment1.target=convert()
+comment2.params=s
+comment2.target=void\ BtoD(java.lang.String)
+comment3.params=s
+comment3.target=void\ DtoB(java.lang.String)
+comment4.params=s
+comment4.target=void\ HtoD(java.lang.String)
+comment5.params=s
+comment5.target=void\ DtoH(java.lang.String)
+comment6.params=s
+comment6.target=void\ IntegerToSign(java.lang.String)
+comment7.params=
+comment7.target=void\ IntegerTo1s()
+comment8.params=
+comment8.target=void\ IntegerTo2s()
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10
